@@ -52,7 +52,7 @@ public class TestZKClient {
 		for (String child : children) {
 		System.out.println(child);
 		}
-		// 延时阻塞
+		// 延时阻塞  让它睡一会 就可以监听到了
 		Thread.sleep(Long.MAX_VALUE);
 	}
 	
